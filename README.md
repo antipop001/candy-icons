@@ -23,3 +23,8 @@ or Change via distribution specific `tweak-tool`.
 You can also combine this icon pack with [sweet-folders](https://github.com/EliverLara/Sweet-folders) to get an awesome custom experience:
 
 ![](preview/folders.png)
+
+## Candy-Neon additions
+
+- Adds a stroke-only Google Messages icon at `apps/scalable/messages.svg` that follows the Candy gradient language.
+- Provides a Chrome PWA alias (`apps/scalable/chrome-hpfldicfbfomlpcikngkocigghgafkph-Default.svg`) so Chromium-based Messages PWAs pick up the themed icon automatically.

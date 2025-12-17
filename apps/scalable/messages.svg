@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1024" height="1024"
+     viewBox="0 0 1024 1024"
+     version="1.1">
+
+  <defs>
+    <!-- Candy-style diagonal gradient -->
+    <linearGradient id="candyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#2EE9FF"/>
+      <stop offset="25%"  stop-color="#4D7CFF"/>
+      <stop offset="50%"  stop-color="#7A4DFF"/>
+      <stop offset="75%"  stop-color="#C83CFF"/>
+      <stop offset="100%" stop-color="#FF8A3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back bubble -->
+  <path
+    d="
+      M 290 140
+      H 610
+      A 170 170 0 0 1 780 310
+      V 450
+      A 170 170 0 0 1 610 620
+      H 420
+      L 420 700
+      L 340 620
+      H 290
+      A 170 170 0 0 1 120 450
+      V 310
+      A 170 170 0 0 1 290 140
+      Z"
+    fill="none"
+    stroke="url(#candyGradient)"
+    stroke-width="64"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.85"/>
+
+  <!-- Front bubble -->
+  <path
+    d="
+      M 390 220
+      H 710
+      A 170 170 0 0 1 880 390
+      V 530
+      A 170 170 0 0 1 710 700
+      H 520
+      L 520 820
+      L 440 700
+      H 390
+      A 170 170 0 0 1 220 530
+      V 390
+      A 170 170 0 0 1 390 220
+      Z"
+    fill="none"
+    stroke="url(#candyGradient)"
+    stroke-width="64"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>
